@@ -98,31 +98,84 @@ textarea {
    /* Header Styles */
 
       header {
-
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
 
       header .content-wrapper {
-
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
 
       header .header-divider {
-
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
 
       header nav {
-
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
 
-   /*------------------ Mobile Styles ---------------------*/
+   /*------------------ Mobile Styles-Homepage ---------------------*/
 
    .hero-area {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
    }
 
-   aside {
-
+  aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
    }
 
+   .features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .features features-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .reviews {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .mission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .faq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .faq content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
    /* Footer */
 /* ==========================================================================
    Helper classes
