@@ -163,6 +163,14 @@ textarea {
     flex-flow: row wrap;
    }
 
+   .reviews content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+
+   }
+
    .mission {
     display: flex;
     justify-content: center;
