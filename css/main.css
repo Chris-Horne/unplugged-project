@@ -98,13 +98,6 @@ textarea {
       }
    /* Header Styles */
 
-      header {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-flow: row wrap;
-      }
-
       header .content-wrapper {
         display: flex;
         justify-content: center;
@@ -121,9 +114,14 @@ textarea {
 
       header nav {
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
         flex-flow: row wrap;
+      }
+      header nav ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
       }
 
    /*------------------ Mobile Styles-Homepage ---------------------*/
@@ -162,15 +160,7 @@ textarea {
     align-items: center;
     flex-flow: row wrap;
    }
-
-   .reviews content-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-
-   }
-
+  
    .mission {
     display: flex;
     justify-content: center;
@@ -206,8 +196,6 @@ textarea {
     justify-content: center;
     align-items: center;    
    }
-
-   footer 
 
 /* ==========================================================================
    Helper classes
