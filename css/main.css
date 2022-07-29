@@ -97,12 +97,21 @@ textarea {
           flex-flow: row wrap;
       }
    /* Header Styles */
+      header{
+        padding: 15px 0;
+      }
 
       header .content-wrapper {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-flow: row wrap;
+        width: 55%;
+        margin: 50px 0;
+      }
+
+      header .content-wrapper p {
+        margin: 0%;
       }
 
       header .header-divider {
@@ -110,6 +119,8 @@ textarea {
         justify-content: center;
         align-items: center;
         flex-flow: row wrap;
+        width: 55%;
+        margin: 50px 0;
       }
 
       header nav {
@@ -117,6 +128,8 @@ textarea {
         justify-content: space-around;
         align-items: center;
         flex-flow: row wrap;
+        width: 60%;
+
       }
       header nav ul {
         display: flex;
@@ -154,11 +167,20 @@ textarea {
     flex-flow: row wrap;
    }
 
+   .features p {
+    margin: 0%
+   }
+
    .reviews {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+   }
+
+   .reviews h3 {
+    width: 55%;
+    margin: 50px 0;
    }
   
    .mission {
@@ -187,6 +209,8 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    width: 55%;
+    margin: 50px 0;
    }
    
    /* Footer */
@@ -197,6 +221,14 @@ textarea {
     align-items: center;    
    }
 
+   footer .content-wrapper{
+    width: 55%;
+    margin: 50px 0;
+   }
+
+   footer p {
+    margin:0%
+   }
 /* ==========================================================================
    Helper classes
    ========================================================================== */
