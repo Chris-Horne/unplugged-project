@@ -317,16 +317,57 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
-}
+@media only screen and (min-width: 768px) {
+  /*Tablet styles here*/
 
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
-}
+  /*General Styles*/
+
+  .content-wrapper {
+    max-width: 640px;
+    margin: 100px 0;
+  }
+
+  header {
+    justify-content: center;
+  }
+  
+  header .content-wrapper {
+    justify-content: center;
+  }
+
+  header nav ul {
+    justify-content: center;
+  }
+
+  aside .content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+  .features article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+  .reviews article {
+    display: flex;
+    justify-content: center;
+  }
+
+  footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  }
+@media only screen and (min-width: 1200px)
+  /*Destop styles here*/
+  
 
 /* ==========================================================================
    Print styles.
