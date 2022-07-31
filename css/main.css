@@ -86,6 +86,9 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+
+   /*------------------ Global Styles---------------------*/
   
 html {
   font-size: 16px;
@@ -124,12 +127,14 @@ p {
   line-height: 1.285;
 }
  
-img {
+img { 
+  width: 100%;
 
 }
  
 figure {
- 
+ margin: 0;
+
 }
  
 address {
@@ -193,6 +198,10 @@ address {
    /*------------------ Mobile Styles-Homepage ---------------------*/
 
    .hero-area {
+    background-image: url(../img/jake-melara-30679-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -363,31 +372,7 @@ address {
 .clearfix::after {
   clear: both;
 }
-aside .form {
-  margin-top: 30px;
-}
- 
-input[type=text] {
-  box-sizing: border-box;
-  width: 100%;
-  color: #2a423a;
-  font-style: italic;
-  padding: 1em;
-}
- 
-input[type=button] {
-  width: 100%;
-  padding: 20px 0;
-  margin-top: 20px;
-  background-color: #2a423a;
-  font-family: 'Poppins', Helvetica, Arial, sans-serif;
-  font-weight: 500;
-  font-size: 1.125em;
-  color: #e2e3ed;
-  border: none;
-  text-align: center;
-  text-transform: uppercase;
-}
+
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
@@ -395,7 +380,7 @@ input[type=button] {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) 
   /*Tablet styles here*/
 
     /* General styles */
