@@ -87,8 +87,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
-   /*------------------ Global Styles---------------------*/
+/* Global Styles */
   
 html {
   font-size: 16px;
@@ -145,57 +144,78 @@ address {
   width: 90%;
   margin: 50px 0;
 }
-   /*------------------ Base Header - Footer Styles---------------------*/
+   
+/*------------------ Base Header - Footer Styles---------------------*/
 
-      header,
-      footer {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          flex-flow: row wrap;
-      }
-   /* Header Styles */
-      header{
-        padding: 15px 0;
-      }
+header,
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
 
-      header .content-wrapper {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-flow: row wrap;
-        width: 55%;
-        margin: 50px 0;
-      }
+header {
+  padding: 15px 0;
+}
 
-      header .content-wrapper p {
-        margin: 0%;
-      }
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 55%;
+  margin: 50px 0;
+}
 
-      header .header-divider {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-flow: row wrap;
-        width: 55%;
-        margin: 50px 0;
-      }
+header .header-divider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 55%;
+  margin: 50px 0;
+}
 
-      header nav {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-flow: row wrap;
-        width: 60%;
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 60%;
 
-      }
-      header nav ul {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-      }
+}
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+  flex-direction: column;
+}
+
+footer .social-icons {
+display: flex;
+justify-content: center;
+align-items: center;    
+}
+
+footer .content-wrapper{
+width: 55%;
+margin: 50px 0;
+}
+
+footer p {
+  margin:0%
+}
 
    /*------------------ Mobile Styles-Homepage ---------------------*/
+
+   /* Hero Area */
 
    .hero-area {
     background-image: url(../img/jake-melara-30679-unsplash.jpg);
@@ -208,12 +228,38 @@ address {
     flex-flow: row wrap;
    }
 
+   /* Aside */
+
   aside {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
    }
+
+   input[type=text] {
+    box-sizing: border-box;
+    width: 100%;
+    color: #2a423a;
+    font-style: italic;
+    padding: 1em;
+  }
+
+  input[type=button] {
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 20px;
+    background-color: #2a423a;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.125em;
+    color: #e2e3ed;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+   /* Features */
 
    .features {
     display: flex;
@@ -233,6 +279,8 @@ address {
     margin: 0%
    }
 
+   /* Reviews */
+
    .reviews {
     display: flex;
     justify-content: center;
@@ -245,6 +293,10 @@ address {
     margin: 50px 0;
    }
   
+   /* =============================================================
+      About Page 
+      ============================================================== */
+
    .mission {
     display: flex;
     justify-content: center;
@@ -252,12 +304,33 @@ address {
     flex-flow: row wrap;
    }
 
-   .contact-section {
+   .map figure {
+    width: 100%;
+    height: 0; 
+    padding-bottom: 125%; 
+    overflow: hidden;
+    position: relative;
+}
+
+    .map iframe {
+      width: 100%;
+      height: 100%;
+      position: absolute; 
+      top: 0; 
+      left: 0;
+      
+    }
+
+    .contact-section {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
    }
+
+   /* =============================================================
+      FAQ Page 
+      ============================================================== */
 
    .faq {
     display: flex;
@@ -275,23 +348,8 @@ address {
     margin: 50px 0;
    }
    
-   /* Footer */
-
-   footer .social-icons, p {
-    display: flex;
-    justify-content: center;
-    align-items: center;    
-   }
-
-   footer .content-wrapper{
-    width: 55%;
-    margin: 50px 0;
-   }
-
-   footer p {
-    margin:0%
-   }
-/* ==========================================================================
+   
+   /* ==========================================================================
    Helper classes
    ========================================================================== */
 
@@ -380,7 +438,7 @@ address {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 768px) 
+@media only screen and (min-width: 768px) {
   /*Tablet styles here*/
 
     /* General styles */
@@ -513,7 +571,9 @@ address {
 .faq h2 {
     width: 100%;
 }
-@media only screen and (min-width: 1200px)
+
+}
+@media only screen and (min-width: 1200px) {
   /*Destop styles here*/
   
 .content-wrapper {
@@ -563,7 +623,8 @@ FAQ Page
 .faq h2 {
    width: 100%;
 }
- 
+
+}
 
 /* ==========================================================================
    Print styles.
