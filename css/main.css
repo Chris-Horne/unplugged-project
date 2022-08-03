@@ -301,27 +301,26 @@ footer p {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: row wrap;
+    flex-flow: row wrap;    
    }
 
-   .map figure {
+   .map {
     width: 100%;
     height: 0; 
-    padding-bottom: 125%; 
+    padding-bottom: 75%; 
     overflow: hidden;
-    position: relative;
-}
+    position: relative;  
+   }
 
-    .map iframe {
-      width: 100%;
-      height: 100%;
-      position: absolute; 
-      top: 0; 
-      left: 0;
-      
-    }
+   .map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   }
 
-    .contact-section {
+   .contact-section {
     display: flex;
     justify-content: center;
     align-items: center;
