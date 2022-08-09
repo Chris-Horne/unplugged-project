@@ -258,16 +258,24 @@ footer .copyright {
    }
 
    .hero-area h1 {
-    
+    font-size: 2.25em;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif; 
+    font-weight: 500; 
+    line-height: 1.2;
    }
 
    /* Aside */
 
   aside {
+    background-color: #527158;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+   }
+
+   aside .form {
+    margin-top: 30px;
    }
 
    input[type=text] {
@@ -295,13 +303,25 @@ footer .copyright {
    /* Features */
 
    .features {
+    background: url(../img/rawpixel-800820-unsplash1.png);
+    background-position: center;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
    }
 
-   .features features-items {
+   .features h2 {
+    margin-bottom: 65px;
+   }
+
+   .features article {
+    width: 65%;
+    margin: 30px 0;
+   }
+
+   .features .features-items {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -310,25 +330,31 @@ footer .copyright {
 
    .features i {
     font-size: 3.75em;
-          margin-bottom: 40px;
+    margin-bottom: 40px;
   }
 
    .features p {
-    margin: 0%
+    margin: 0%;
+    text-align: center;
    }
 
    /* Reviews */
 
    .reviews {
+    background-color: #2a423a;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
    }
 
+   .reviews h2 {
+    margin-bottom: 30px;
+   }
+
    .reviews h3 {
-    width: 55%;
-    margin: 50px 0;
+    width: 48%;
+    margin: 20px 0;
    }
   
    /* =============================================================
