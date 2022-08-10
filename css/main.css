@@ -524,7 +524,7 @@ align-items: center;
 @media only screen and (min-width: 768px) {
   /*Tablet styles here*/
 
-    .content-wrapper {
+  .content-wrapper {
       max-width: 640px;
       margin: 100px 0;
   }
@@ -619,13 +619,23 @@ align-items: center;
     justify-content: space-between;
   }
   
+  .reviews h2 {
+    width: 85%;
+  }
+
   .reviews article {
-    display: flex;     
+    display: flex;
     justify-content: space-between;
   }
 
-  .reviews h2 {
-    width: 85%;
+  .reviews article figure,
+  .reviews article div {
+    width: 49%;
+  }
+
+  .reviews h3 {
+    width: 75%;
+    margin: 0;
   }
 
   /* Footer */
@@ -705,6 +715,7 @@ align-items: center;
   }
 
 }
+
 @media only screen and (min-width: 1200px) {
   /*Destop styles here*/
 
