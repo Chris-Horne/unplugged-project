@@ -240,10 +240,10 @@ textarea {
 
   footer .social-icons p {
     background-color: #527158;
-    border-radius: 10px 10px 10px 10px;
-    height: 20px;
-    width: 20px;
-    display: inline-flexbox;
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+    display: flex;
     justify-content: center;
     align-items: center;    
   }
@@ -566,10 +566,11 @@ textarea {
 
   header nav {
     width: 20%;
+    padding-left: 0%;
   }
 
   header nav ul {
-    justify-content: center ;
+    justify-content: space-between;
   }
 
   .header-divider {
