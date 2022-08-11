@@ -566,10 +566,10 @@ textarea {
 
   header nav {
     width: 20%;
-    padding-left: 0%;
   }
 
   header nav ul {
+    padding-left: 0%;
     justify-content: space-between;
   }
 
@@ -686,10 +686,15 @@ textarea {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 20px;
   }
 
   .mission-content p {
     width: 45%;
+  }
+
+  .map figure {
+    padding-bottom: 45.5%;
   }
 
   .contact-section .content-wrapper h2 {
@@ -700,6 +705,10 @@ textarea {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+  }
+
+  .contact-content h4 {
+    font-size: 1.5em;
   }
 
   /* ==========================================================================
@@ -818,6 +827,12 @@ textarea {
   ========================================================================== */
   .faq h2 {
     width: 100%;
+  }
+
+  .faq h4,
+  .faq p {
+      font-size: 1.125em;
+      line-height: 1;
   }
 
 }
