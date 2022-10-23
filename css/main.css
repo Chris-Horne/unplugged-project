@@ -169,6 +169,10 @@ textarea {
     margin: 0;
   }
 
+  header .content-wrapper ul {
+    padding: 0px;
+  }
+
   header figure {
     width: 60%;
     display: flex;
