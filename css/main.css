@@ -226,15 +226,17 @@ textarea {
 
   footer .footer-content {
     display: flex;
-    justify-content: space-around;
-    }
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+  }
 
   footer .contact {
     margin-bottom: 50px;
   }
   
   footer .social {
-    width: 35%;
+    width: 50%;
   }
 
   footer .social-icons {   
@@ -656,11 +658,11 @@ textarea {
   /* Footer */
 
   footer .content-wrapper {
-      width: 65%;
+      width: 90%;
       margin: 100px 0;
   }
   
-  .footer .footer-content {
+  footer .footer-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -670,6 +672,12 @@ textarea {
   footer .contact {
       margin-bottom: 0;
   }
+
+
+  footer .social {
+    width: 30%;
+  }
+
   footer h4 {
     font-size: 1.5em;
     margin-bottom: 40px;
